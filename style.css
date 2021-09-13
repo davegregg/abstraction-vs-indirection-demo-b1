@@ -1,0 +1,26 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  width: 1rem;
+  height: 1rem;
+  outline: 1px solid grey;
+}
+
+.wall {
+  background: black;
+}
+
+.floor {
+  background: white;
+}
+
+.start {
+  background: green;
+}
+
+.finish {
+  background: red;
+}
